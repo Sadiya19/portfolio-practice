@@ -1,4 +1,6 @@
 body{
+    padding: 0;
+    margin: 0;
     font-family: 'Comfortaa', cursive;
 }
 .title{
@@ -9,17 +11,16 @@ body{
 }
 .row{
     display: flex;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
 }
 .col{
     width: 50%;
-    margin: 0 100px;
-}
-.text-col{
-    
+    margin: 50px 100px;
 }
 .hire-btn{
     border: none;
-    padding: 5px 20px;
+    padding: 10px 30px;
     color: rgb(255, 255, 255);
     background-color: crimson;
     font-size: larger;
