@@ -1,0 +1,31 @@
+body{
+    font-family: 'Comfortaa', cursive;
+}
+.title{
+    font-size: 50px;
+}
+.colored-text{
+    color: coral;
+}
+.row{
+    display: flex;
+}
+.col{
+    width: 50%;
+    margin: 0 100px;
+}
+.text-col{
+    
+}
+.hire-btn{
+    border: none;
+    padding: 5px 20px;
+    color: rgb(255, 255, 255);
+    background-color: crimson;
+    font-size: larger;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.col img{
+    width: 100%;
+}
