@@ -4,13 +4,16 @@ body{
     font-family: 'Comfortaa', cursive;
 }
 .title{
-    font-size: 50px;
+    font-size: 40px;
 }
 .colored-text{
     color: coral;
 }
 .row{
     display: flex;
+    
+}
+.top-sec{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
@@ -18,7 +21,7 @@ body{
     width: 50%;
     margin: 50px 100px;
 }
-.hire-btn{
+.btn{
     border: none;
     padding: 10px 30px;
     color: rgb(255, 255, 255);
@@ -29,4 +32,22 @@ body{
 }
 .col img{
     width: 100%;
+}
+.card{
+    box-shadow: 5px 5px 30px cyan;
+    padding: 50px;
+}
+.dream-sec{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.exp-sec{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:left ;
+}
+footer{
+    text-align: center;
+    margin-top: 50px;
 }
